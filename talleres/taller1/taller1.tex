@@ -70,19 +70,54 @@ top= 2cm, bottom= 2cm]{geometry}
 
 	\newpage		%salto de página
 
-	\textbf{4.}	Comencemos por mirar todos los casos de este problema:\\
+	\textbf{4.}	Comencemos por modelar la situación: Inicialmente sabemos que se tienen 3 oponentes, sean estos
+	A, B y C, de los cuales B es el más débil.\\
 
-	\textbf{Caso 1:} El más fácil va de primero.
-	En este caso la única opción viable para poder ganar la final sería ganarle al segundo.\\
+	Ahora nombremos a los eventos $A, B, C$ como la probabilidad de ganar a los oponentes de correspondiente letra 
 
-	\textbf{Caso 2:} El más fácil va de tercero.
-	En este caso la única opción viable para poder ganar la final es ganándole al segundo.\\
+	A priori se sabe que estos eventos son independientes entre sí es decir que:
 
-	\textbf{Caso 3}: El más fácil de segundo.
-	Este es el caso más viable ya que tiene 2 opciones para ganar la final que sería ganarle al primero o ganarle al tercero. En este caso la unión de estás 2 probabilidades es mayor a la de cada una por singular.\\
+	\begin{equation*}
+		P(A\cap B) = P(A) \cdot P(B) \text{ donde } i \neq j
+	\end{equation*}
 
-	Entonces por esto último, la forma más viable de ganar la final es dejar al más fácil de segundo.
+	Adicionalmente se sabe que $P(B) > P(A)$ y  $P(B) > P(C)$ esto dado que B es el más débil.
+	Ahora haciendo un análisis por caso se tiene:
 
+
+	\begin{enumerate}
+		\item Se selecciona jugar contra el más débil como primer oponente, así la probabilidad de ganar G es:
+
+			\begin{align*}
+				P(G) &= P(B)\cdot P(A) + P(A)\cdot P(C)\\
+				&= P(A)(P(B) + P(C))
+			\end{align*}
+
+		\item Se selecciona jugar contra el más débil como segundo oponente, así la probabilidad de ganar G es:
+			\begin{align*}
+				P(G) &= P(A)\cdot P(B) + P(B)\cdot P(C)\\
+				&= P(B)(P(A) + P(C))
+			\end{align*}
+
+		\item Se selecciona jugar contra el más débil como tercer oponente, así la probabilidad de ganar G es:
+			\begin{align*}
+				P(G) &= P(C)\cdot P(A) + P(A)\cdot P(B)\\
+				&= P(C)(P(A) + P(B))
+			\end{align*}
+	\end{enumerate}
+
+	(Note como se ha descartado el caso trivial en el que se vencen a todos los oponentes)
+	Adicionalmente basado en que $P(B) > P(A)$ y  $P(B) > P(C)$:
+
+	Comparando sin perdida de generalidad el primer caso con el segundo se tiene:
+
+	\begin{align*}
+			P(A)\cdot P(B) + P(B)\cdot P(C)_{\text{    2do caso}}	&> P(B)\cdot P(A) + P(A)\cdot P(C)_{\text{  1er caso}}\\
+			P(B)\cdot P(C) &> P(A)\cdot P(C)
+	\end{align*}
+
+	dado lo anterior se concluye que el caso en el que se maximizan las posibilidades de ganar es poniendo 
+	al jugador más débil como segundo oponente.
 
 
 \end{document}
