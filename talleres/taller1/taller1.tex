@@ -1,0 +1,89 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{microtype} 
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{amssymb}
+\usepackage{amsmath} %For being able to make comments inside the formulas as normal text
+\usepackage{amsthm}
+
+\usepackage{cancel} %in the preamble gives you four different modes of striking through
+
+\usepackage[a4paper, inner= 2cm, outer= 2cm,
+top= 2cm, bottom= 2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{animate}
+
+\title{Taller 1\\ Probabilidad y Estadística}
+\author{David Alsina, Juan José Caballero, Nicolas Botero}
+\date{Enero 2021}
+
+\usepackage[dvipsnames]{xcolor}
+\definecolor{blueMacc}{RGB}{61, 160, 250}
+
+\begin{document}
+
+    \begin{figure}[ht]
+		\centering
+		\includegraphics[width = 17cm]{../header.png}
+		\maketitle
+    \end{figure}
+
+	\textbf{5.} Utilice los axiomas de probabilidad para demostrar que, para dos eventos A y B:
+
+	\begin{equation*}
+		P((A \cap  \text{\={B}}) \cup (\text{\={A}} \cap B)) = P(A) + P(B) - 2P(A\cap B)
+	\end{equation*}
+
+	que es la probabilidad de que exactamente uno de los dos eventos A o B ocurra.
+
+	\begin{align*}
+		P((A \cap  \text{\={B}}) \cup (\text{\={A}} \cap B)) &= P( (A \cup \text{\={A}}) \cap (\text{\={A}} \cup \text{\={B}}) \cap (B \cup A) \cap (B \cup \text{\={B}}) )\\
+		&= P( (\Omega) \cap (\text{\={A}} \cup \text{\={B}}) \cap (B \cup A) \cap (\Omega) )\\
+		&= P( (A \cap B)^{c} \cap (A \cup B))\\
+ 	\end{align*}
+
+	\begin{center}
+		Ahora observe la siguiente ecuación:
+	\end{center}
+	\begin{align}
+		P(A \cup  B) &= P(A) +  P(B) - P(A \cap B)\\
+		P(A \cap B) &=  P(A) +  P(B) - P(A \cup B)
+	\end{align}
+
+	\begin{center}
+		Dada la ecuación anterior (2) podríamos calcular esta probabilidad así:
+	\end{center}
+
+	\begin{align*}
+		P( (A \cap B)^{c} \cap (A \cup B)) &= P((A \cap B)^{c}) + P(A \cup B) 
+	- P((A \cap B)^{c} \cup (A \cup B)) \\
+	&= 1 - P(A \cap B) + P(A) + P(B) - P(A \cap B)- P((A \cap B)^{c} \cup (A \cup B))\\
+	&= P(A) + P(B) -2P(A \cap B) + 1 - P((A \cap B)^{c} \cup (A \cup B))\\
+	&= P(A) + P(B) -2P(A \cap B) + 1 - P(\Omega)\\
+	&= P(A) + P(B) -2P(A \cap B) + 1 - 1\\
+	&= P(A) + P(B) -2P(A \cap B)_{\;\;\blacksquare}
+	\end{align*}
+
+	\newpage		%salto de página
+
+	\textbf{4.}	Comencemos por mirar todos los casos de este problema:\\
+
+	\textbf{Caso 1:} El más fácil va de primero.
+	En este caso la única opción viable para poder ganar la final sería ganarle al segundo.\\
+
+	\textbf{Caso 2:} El más fácil va de tercero.
+	En este caso la única opción viable para poder ganar la final es ganándole al segundo.\\
+
+	\textbf{Caso 3}: El más fácil de segundo.
+	Este es el caso más viable ya que tiene 2 opciones para ganar la final que sería ganarle al primero o ganarle al tercero. En este caso la unión de estás 2 probabilidades es mayor a la de cada una por singular.\\
+
+	Entonces por esto último, la forma más viable de ganar la final es dejar al más fácil de segundo.
+
+
+
+\end{document}
+
