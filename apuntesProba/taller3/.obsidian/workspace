@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "1a5abe67cc4cdf63",
+    "type": "split",
+    "children": [
+      {
+        "id": "2085b1e91ea6e1fc",
+        "type": "leaf",
+        "dimension": 43.013972055888225,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "taller 3.md",
+            "mode": "source"
+          }
+        },
+        "group": "058768c9518d5c14"
+      },
+      {
+        "id": "41f7bb2407e93ee2",
+        "type": "leaf",
+        "dimension": 56.986027944111775,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "taller 3.md",
+            "mode": "preview"
+          }
+        },
+        "group": "058768c9518d5c14"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "96fa274063f46c19",
+    "type": "split",
+    "children": [
+      {
+        "id": "da08908cbf25e799",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "855ae5ab4d7f84ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9e88989438c2c8fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 232
+  },
+  "right": {
+    "id": "dfc3f185b3d39e14",
+    "type": "split",
+    "children": [
+      {
+        "id": "330b9ba320094471",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a0c9de793ff7d3e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "taller 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "taller 3.md",
+    "correccion parcial1/corrección parcial1.md",
+    "Pasted image 20210301230024.png",
+    "Pasted image 20210301214319.png",
+    "independencia v.a. discretas/Untitled.md",
+    "correccion parcial1/Untitled.md",
+    "taller 3.pdf",
+    "Pasted image 20210302002705.png",
+    "Pasted image 20210302002117.png",
+    "Pasted image 20210301233533.png"
+  ]
+}

@@ -74,7 +74,25 @@ $$
 p = \frac{1}{499} \cdot \frac{1}{365}
 $$
 
-Calculando con Poisson:
+Para calcular con Poisson es necesario definir $\lambda$ como una caracterización de la FMP de la V.A: 'D' # de invitados que cumplen el mismo día que yo.
+
+$$
+\displaystyle
+f(D) = 
+\begin{cases}
+\displaystyle
+	\frac{n}{499} \cdot \left(\frac{1}{365}\right)^{n}, \text{ donde n = 1, 2, 3, ... 499}
+\end{cases}
+$$
+
+$$
+\displaystyle
+f(D) = 
+\begin{cases}
+\displaystyle
+	\frac{n}{499} \cdot \left(\frac{1}{365}\right)^{n}, \text{ donde n = 1, 2, 3, ... 499}
+\end{cases}
+$$
 
 -----
 
