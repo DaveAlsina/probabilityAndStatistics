@@ -1,0 +1,108 @@
+{
+  "main": {
+    "id": "22a455919bc44353",
+    "type": "split",
+    "children": [
+      {
+        "id": "614484f3708a12d4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "taller3/taller 3.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "bae97f6383b1f14c",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "taller3/taller 3.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b25bcb2ddf099564",
+    "type": "split",
+    "children": [
+      {
+        "id": "69cbe34a53392340",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd36ef3fc077364b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "82954fbb10d81f24",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 199
+  },
+  "right": {
+    "id": "7dab73f934f048b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ef63be293293e7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7606d2080af8a57b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "taller3/taller 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "taller3/taller 3.md",
+    "taller 3.md",
+    "Pasted image 20210301232631.png.md",
+    "Pasted image 20210301232631.png",
+    "valor esperado/Valor esperado.md",
+    "Untitled.md",
+    "clase 2021-02-24.md"
+  ]
+}
