@@ -180,6 +180,99 @@ P_{Z}(k) =
 \end{cases}
 $$
 
+----
+
+![[Pasted image 20210303163009.png]]
+
+Sea X nuestra variable aleatoria bernoulli: 
+
+$$
+\displaystyle
+X = éxito(1), \; fracaso(0)
+$$
+
+Así la FMP de X es: 
+
+$$
+\displaystyle
+P_{X}(k) = 
+\begin{cases}
+	p \text{, si k es un éxito}\\
+	1 - p \text{, si k es un fracaso} 
+\end{cases}
+$$
+
+![[Pasted image 20210303191446.png]]
+
+$$
+\displaystyle
+E(X) = (1 \cdot p) + (0 \cdot (1 - p))
+= p
+$$
+
+
+----
+
+![[Pasted image 20210303194917.png]]
+
+las funciones de masa de probabilidad tienen la característica de que la suma de sus probabilidades es igual a 1.
+
+
+$$
+\displaystyle
+
+\sum_{k=0}^{\infty}{
+	\displaystyle
+	e^{-\lambda} \frac{\lambda^{k}}{k!}
+}
+=
+e^{-\lambda}\cdot \sum_{k=0}^{\infty}{
+	\displaystyle
+	 \frac{\lambda^{k}}{k!}
+}
+
+= e^{-\lambda} \cdot (1 + \frac{\lambda}{1} + \frac{\lambda^{2}}{2} + \frac{\lambda^{3}}{6} + ...)
+$$
+
+$$
+=	e^{-\lambda} \cdot e^{\lambda} = 1
+$$
+
+![[Pasted image 20210303202756.png]]
+
+
+$$
+\displaystyle
+
+\sum_{k=0}^{\infty}{
+	\displaystyle
+	k \cdot e^{-\lambda} \frac{\lambda^{k}}{k!}
+}
+=
+ \lambda \cdot \sum_{k=0}^{\infty}{
+	\displaystyle
+	e^{-\lambda}\cdot \frac{\lambda^{k-1}}{k-1!}
+}
+$$
+
+$$
+
+=
+ \lambda \cdot \sum_{l=1}^{\infty}{
+	\displaystyle
+	e^{-\lambda}\cdot \frac{\lambda^{l}}{l!}
+= \lambda
+}
+$$
+
+![[Pasted image 20210303204006.png]]
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
+![[Pasted image 20210303204031.png]]
+
+
 
 
 
