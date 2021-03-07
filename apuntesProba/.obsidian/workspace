@@ -4,20 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "614484f3708a12d4",
+        "id": "7ef20427b8a37cde",
         "type": "leaf",
-        "dimension": 47.492163009404386,
+        "dimension": 43.931088488645265,
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "taller3/taller 3.md",
+            "mode": "source"
+          }
         },
-        "group": "0571670e66930f2e"
+        "group": "f0dc19b1fce23c42"
       },
       {
-        "id": "bae97f6383b1f14c",
+        "id": "e276a27be160c8e2",
         "type": "leaf",
-        "dimension": 52.507836990595614,
+        "dimension": 56.068911511354735,
         "state": {
           "type": "markdown",
           "state": {
@@ -25,7 +28,7 @@
             "mode": "preview"
           }
         },
-        "group": "0571670e66930f2e"
+        "group": "f0dc19b1fce23c42"
       }
     ],
     "direction": "vertical"
@@ -81,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "taller3/taller 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,14 +102,14 @@
   },
   "lastOpenFiles": [
     "taller3/taller 3.md",
+    "valor esperado/Valor esperado.md",
+    "Pasted image 20210306202959.png",
+    "Pasted image 20210306200249.png",
+    "Pasted image 20210306200309.png",
+    "taller3/Pasted image 20210303204006.png",
+    "taller3/Pasted image 20210303204031.png",
+    "correccion parcial1/corrección parcial1.md",
     "Pasted image 20210303194847.png",
-    "Pasted image 20210303191446.png",
-    "Pasted image 20210303163009.png",
-    "Pasted image 20210302180559.png",
-    "Pasted image 20210302172251.png",
-    "Pasted image 20210302165136.png",
-    "Pasted image 20210302164454.png",
-    "taller3/Pasted image 20210301230024.png",
-    "taller3/Pasted image 20210301214319.png"
+    "Pasted image 20210303191446.png"
   ]
 }

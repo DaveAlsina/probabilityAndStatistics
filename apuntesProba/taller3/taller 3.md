@@ -1,3 +1,6 @@
+[[Valor esperado]]
+
+
 ![[Pasted image 20210301214319.png]]
 
 Sea X la Variable aleatoria *\#de puntos que gana el equipo esa semana.* 
@@ -210,7 +213,90 @@ E(X) = (1 \cdot p) + (0 \cdot (1 - p))
 = p
 $$
 
+----
 
+![[Pasted image 20210306200309.png]]
+
+La FMP de X es :
+
+$$
+\displaystyle
+	P_{X}(k) = 
+	\begin{cases}
+		\text{si } k = 1, \; p \\
+		\text{si } k = 0, \; 1 - p
+	\end{cases}
+$$
+
+![[Pasted image 20210306203049.png]]
+
+$$
+\displaystyle
+	P_{Y}(k) \begin{cases}
+	\displaystyle
+	
+	\binom{n}{k} \cdot p^{k} \cdot (1 - p)^{n-k}
+	\end{cases}
+$$
+
+$$
+\displaystyle
+	E[Y] = \sum_{k=0}^{n}{k\cdot \binom{n}{k} \cdot p^{k} \cdot (1 - p)^{n-k}}
+$$
+
+Note que:
+
+$$
+	k \cdot \binom{n}{k} = k \cdot \frac{n!}{(n-k)! \cdot k!}
+	= n \cdot \frac{(n-1)!}{(n-1-k)!\cdot(k-1)!}
+	=n \cdot \binom{n-1}{k-1}
+$$
+
+Con lo anterior:
+
+$$
+\displaystyle
+	E[Y] = \sum_{k=0}^{n}{n\cdot \binom{n-1}{k-1} \cdot p^{k} \cdot (1 - p)^{n-k}}
+$$
+
+$$
+= n \cdot p \cdot \cancelto{1}{\sum_{k=0}^{n-1}{\binom{n-1}{k-1}\cdot p^{k-1}(1-p)^{(n-1)-(k-1)}}}
+$$
+
+Finalmente
+
+$$
+=n\cdot p
+$$
+
+![[Pasted image 20210307120218.png]]
+
+Dado que Y es lineal y es un función de las variables aleatorias $X_{i}$ tenga en cuenta que:
+
+$$
+\displaystyle
+	E[Y] = Y[\;E[X]\;]
+$$
+
+Así:
+
+$$
+	E[Y] = E[X_{1}] + E[X_{2}] + E[X_{3}] + (...) + E[X_{n}]
+$$
+$$
+	E[Y] = p + p + p + (...) + p
+$$
+$$
+	E[Y] = n \cdot p
+$$
+
+![[Pasted image 20210307120802.png]]
+
+Dado que Y es lineal observe:
+
+$$
+V[Y] = \sum_{i=1}^{n}{V(X_{i})} = n \cdot p\cdot(1-p)
+$$
 ----
 
 ![[Pasted image 20210303194917.png]]
@@ -235,7 +321,7 @@ e^{-\lambda}\cdot \sum_{k=0}^{\infty}{
 $$
 
 $$
-=	e^{-\lambda} \cdot e^{\lambda} = 1
+= e^{-\lambda} \cdot e^{\lambda} = 1
 $$
 
 ![[Pasted image 20210303202756.png]]
@@ -267,12 +353,70 @@ $$
 
 ![[Pasted image 20210303204006.png]]
 
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+$$
+\displaystyle
 
+E[X^{2}] = 
+
+\sum_{k=0}^{\infty}{
+	\displaystyle
+	k^{2} \cdot p_{X}(k)
+}
+=
+
+\sum_{k=0}^{\infty}{
+	\displaystyle
+	k^{2} \cdot e^{-\lambda} \frac{\lambda^{k}}{k!}
+}
+=
+  \sum_{k=0}^{\infty}{
+	\displaystyle
+	k\cdot
+	e^{-\lambda}\cdot \frac{\lambda^{k}}{k-1!}
+}
+$$
+sea $l = k-1$:
+$$
+	= \sum_{l = 0}^{\infty}{
+	\displaystyle 
+	(l + 1) \cdot e^{-\lambda} \cdot \frac{\lambda^{l+1}}{l!}
+	}
+	= \sum_{l = 0}^{\infty} l \cdot e^{-\lambda} \frac{\lambda^{l+1}}{l!}
+	+
+	\sum_{l = 0}^{\infty} e^{-\lambda} \frac{\lambda^{l+1}}{l!}
+$$
+
+$$
+	
+	= \lambda \cdot \cancelto{E[X]}{\sum_{l = 0}^{\infty}{
+	l \cdot e^{-\lambda} \frac{\lambda^{l}}{l!}}}
+	
+	
+	+ \lambda \cdot \cancelto{1}{\sum_{l = 0}^{\infty}{
+	e^{-\lambda} \frac{\lambda^{l}}{l!}}
+	}
+	
+$$
+
+$$
+	= \lambda \cdot \lambda + \lambda
+$$
+
+$$
+	= \lambda^{2} + \lambda
+$$
 
 ![[Pasted image 20210303204031.png]]
 
+Dado lo $E[X]$ y $E[X^{2}]$:
 
+$$
+	Var(X) = E[X^{2}] - (E[X])^{2}
+$$
+
+$$
+	Var(X) = \lambda^{2} + \lambda - (\lambda)^{2} = \lambda
+$$
 
 
 
