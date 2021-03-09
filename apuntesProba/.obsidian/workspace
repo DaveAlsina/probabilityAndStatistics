@@ -6,21 +6,18 @@
       {
         "id": "7ef20427b8a37cde",
         "type": "leaf",
-        "dimension": 43.931088488645265,
+        "dimension": 29.05246671887236,
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "taller3/taller 3.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "f0dc19b1fce23c42"
       },
       {
         "id": "e276a27be160c8e2",
         "type": "leaf",
-        "dimension": 56.068911511354735,
+        "dimension": 70.94753328112765,
         "state": {
           "type": "markdown",
           "state": {
@@ -84,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "taller3/taller 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
