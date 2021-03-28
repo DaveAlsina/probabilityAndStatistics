@@ -4,28 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "7ef20427b8a37cde",
+        "id": "63657c7b5551b26a",
         "type": "leaf",
-        "dimension": 29.05246671887236,
         "active": true,
-        "state": {
-          "type": "graph",
-          "state": {}
-        },
-        "group": "f0dc19b1fce23c42"
-      },
-      {
-        "id": "e276a27be160c8e2",
-        "type": "leaf",
-        "dimension": 70.94753328112765,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "taller3/taller 3.md",
-            "mode": "preview"
+            "file": "taller5/taller5solución.md",
+            "mode": "source"
           }
         },
-        "group": "f0dc19b1fce23c42"
+        "group": "b5d7758ee9a70023"
+      },
+      {
+        "id": "7cb1f34a3dbde151",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "taller5/taller5solución.md",
+            "mode": "source"
+          }
+        },
+        "group": "b5d7758ee9a70023"
       }
     ],
     "direction": "vertical"
@@ -65,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 199
+    "width": 251
   },
   "right": {
     "id": "7dab73f934f048b5",
@@ -81,6 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "taller5/taller5solución.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +99,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "taller5/Untitled.md",
+    "Pasted image 20210317175200.png",
+    "taller4/taller4solucion.md",
     "taller3/taller 3.md",
-    "correccion parcial1/corrección parcial1.md",
-    "valor esperado/Valor esperado.md",
-    "Pasted image 20210306202959.png",
-    "Pasted image 20210306200249.png",
-    "Pasted image 20210306200309.png",
-    "taller3/Pasted image 20210303204006.png",
-    "taller3/Pasted image 20210303204031.png",
-    "Pasted image 20210303194847.png",
-    "Pasted image 20210303191446.png"
+    "Pasted image 20210307120802.png.md",
+    "Pasted image 20210306203049.png.md",
+    "Pasted image 20210306200309.png.md",
+    "taller4/Untitled.md",
+    "Untitled.md",
+    "Pasted image 20210313164345.png"
   ]
 }
